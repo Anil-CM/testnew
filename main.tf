@@ -5,6 +5,6 @@ resource "null_resource" "env_workspace" {
 }
 
 data "local_file" "env_info" {
-    filename = "${path.module}/tags.txt"
+    filename = "${path.module}/tags.vars"
     depends_on = [null_resource.env_workspace]
 }
