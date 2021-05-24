@@ -3,5 +3,5 @@ variable "name" {
 }
 
 variable "age" {
-  type = string 
+  type = string
 }
